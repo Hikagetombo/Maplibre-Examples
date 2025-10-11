@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./public/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Terrain</title>
+    <script src="https://unpkg.com/maplibre-gl@^5.8.0/dist/maplibre-gl.js"></script>
+    <link href="https://unpkg.com/maplibre-gl@^5.8.0/dist/maplibre-gl.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./src/style.css" />
+    <!--<script src="./src/shelter_point.json"></script>-->
+  </head>
+  <body>
+    <div id="map"></div>
+    <!--<script type="module">
+        import { useGsiTerrainSource } from 'https://www.unpkg.com/maplibre-gl-gsi-terrain@2.2.2/dist/terrain.js';
+    </script>-->
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
