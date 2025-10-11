@@ -5,6 +5,7 @@ const map = new maplibregl.Map({
     style: {
         version: 8,
         sources: {
+            /*
             osm: { // OpenStreetMapのタイルデータを定義
                 type: 'raster',
                 tiles: ['https://tile.openstreetmap.org/{z}/{x}/{y}.png'],
@@ -12,6 +13,7 @@ const map = new maplibregl.Map({
                 attribution:
                     '&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors',
             },
+            */
             gsi_vector: {　// 地理院ベクトル
                 type: 'vector',
                 tiles: ['https://cyberjapandata.gsi.go.jp/xyz/experimental_bvmap/{z}/{x}/{y}.pbf'],
@@ -21,11 +23,13 @@ const map = new maplibregl.Map({
             },
         },
         layers: [
+            /*
             {// OpenStreetMapのタイルデータを表示
                 id: 'osm',
                 type: 'raster',
                 source: 'osm',
             },
+            */
             {
                 id: 'building',　// 建物レイヤー
                 source: 'gsi_vector',
