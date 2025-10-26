@@ -8,4 +8,9 @@ MapLibreを使った様々な事例集です。
 3. [地理院標高タイルをMapLibre GL JSで使う](https://hikagetombo.github.io/Maplibre-Examples/DEM/webmap/index.html)ー「[MapLibre GL JSと地理院標高タイルで3D地形を表示する](https://github.com/mug-jp/maplibre-gl-gsi-terrain)」 から
 4. [MapLibre GL JS Examples](https://maplibre.org/maplibre-gl-js/docs/examples/) から  
     . [3D Terrain](https://hikagetombo.github.io/Maplibre-Examples/3DTerrain/index.html)
+    . [Add a 3D model to globe using three.js](https://hikagetombo.github.io/Maplibre-Examples/Add-3D-model/threeJS-globe.html)
+    . [Add a 3D model using three.js](https://hikagetombo.github.io/Maplibre-Examples/Add-3D-model/threeJS.html)
+    . [Add a 3D model with babylon.js](https://hikagetombo.github.io/Maplibre-Examples/Add-3D-model/threeJS-globe.html)
+    . [Add a 3D model with shadow using three.js](https://hikagetombo.github.io/Maplibre-Examples/Add-3D-model/babylonJS.html)
+    . [Add a 3D model to globe using three.js](https://hikagetombo.github.io/Maplibre-Examples/Add-3D-model/threeJS-shadow.html)
 
